@@ -1,0 +1,48 @@
+.flex-container {
+  height:800px;
+  width: 800px;
+  margin:auto;
+
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+
+  .main_Container {
+    background: peachpuff;
+    /*border: 1px solid brown;*/
+    height: 600px;
+    width: 600px;
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    display:flex;
+  }
+
+ /* div.main_Container{
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+  }
+  /*try adding styles from outside of .atom*/
+
+  .atom {
+    box-sizing:border-box;
+    display:inline;
+    float:right;
+    /*border-width: .5px;
+    border-color: black;
+    border-style: solid; */
+  }
+
+  /*.row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding:none;
+    margin:none;
+
+  }*/
+    
+  
+
+  
